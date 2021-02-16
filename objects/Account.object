@@ -402,6 +402,7 @@
     </fields>
     <fields>
         <fullName>SLA__c</fullName>
+        <description>vgfgfg</description>
         <externalId>false</externalId>
         <label>SLA</label>
         <required>false</required>
@@ -497,6 +498,15 @@
     <fields>
         <fullName>YearStarted</fullName>
         <trackFeedHistory>false</trackFeedHistory>
+    </fields>
+    <fields>
+        <fullName>coapdo_checkbox__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>cc</description>
+        <externalId>false</externalId>
+        <label>coapdo checkbox</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Checkbox</type>
     </fields>
     <listViews>
         <fullName>AllAccounts</fullName>
