@@ -114,49 +114,28 @@
     </actionOverrides>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>false</enableFeeds>
-    <externalSharingModel>ReadWrite</externalSharingModel>
+    <externalSharingModel>Private</externalSharingModel>
     <fields>
         <fullName>AccountId</fullName>
         <type>Lookup</type>
     </fields>
     <fields>
-        <fullName>Amount</fullName>
-    </fields>
-    <fields>
-        <fullName>Balance</fullName>
+        <fullName>AuditEmail</fullName>
     </fields>
     <fields>
         <fullName>Comments</fullName>
     </fields>
     <fields>
-        <fullName>Date</fullName>
-    </fields>
-    <fields>
-        <fullName>EffectiveDate</fullName>
+        <fullName>CompanyName</fullName>
     </fields>
     <fields>
         <fullName>Email</fullName>
     </fields>
     <fields>
-        <fullName>ExpirationDate</fullName>
+        <fullName>GatewayToken</fullName>
     </fields>
     <fields>
-        <fullName>GatewayAuthCode</fullName>
-    </fields>
-    <fields>
-        <fullName>GatewayDate</fullName>
-    </fields>
-    <fields>
-        <fullName>GatewayRefDetails</fullName>
-    </fields>
-    <fields>
-        <fullName>GatewayRefNumber</fullName>
-    </fields>
-    <fields>
-        <fullName>GatewayResultCode</fullName>
-    </fields>
-    <fields>
-        <fullName>GatewayResultCodeDescription</fullName>
+        <fullName>GatewayTokenDetails</fullName>
     </fields>
     <fields>
         <fullName>IpAddress</fullName>
@@ -165,15 +144,14 @@
         <fullName>MacAddress</fullName>
     </fields>
     <fields>
+        <fullName>NickName</fullName>
+    </fields>
+    <fields>
+        <fullName>OwnerId</fullName>
+        <type>Lookup</type>
+    </fields>
+    <fields>
         <fullName>PaymentGatewayId</fullName>
-        <type>Lookup</type>
-    </fields>
-    <fields>
-        <fullName>PaymentGroupId</fullName>
-        <type>Lookup</type>
-    </fields>
-    <fields>
-        <fullName>PaymentMethodId</fullName>
         <type>Lookup</type>
     </fields>
     <fields>
@@ -183,21 +161,7 @@
         <fullName>ProcessingMode</fullName>
     </fields>
     <fields>
-        <fullName>SfResultCode</fullName>
-    </fields>
-    <fields>
         <fullName>Status</fullName>
     </fields>
-    <fields>
-        <fullName>TotalAuthReversalAmount</fullName>
-    </fields>
-    <fields>
-        <fullName>TotalPaymentCaptureAmount</fullName>
-    </fields>
-    <listViews>
-        <fullName>PaymentAuthorization</fullName>
-        <filterScope>Everything</filterScope>
-        <label>All</label>
-    </listViews>
-    <sharingModel>ReadWrite</sharingModel>
+    <sharingModel>Private</sharingModel>
 </CustomObject>

@@ -114,16 +114,13 @@
     </actionOverrides>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>false</enableFeeds>
-    <externalSharingModel>ReadWrite</externalSharingModel>
+    <externalSharingModel>ControlledByParent</externalSharingModel>
     <fields>
         <fullName>AccountId</fullName>
         <type>Lookup</type>
     </fields>
     <fields>
         <fullName>Amount</fullName>
-    </fields>
-    <fields>
-        <fullName>Balance</fullName>
     </fields>
     <fields>
         <fullName>Comments</fullName>
@@ -136,12 +133,6 @@
     </fields>
     <fields>
         <fullName>Email</fullName>
-    </fields>
-    <fields>
-        <fullName>ExpirationDate</fullName>
-    </fields>
-    <fields>
-        <fullName>GatewayAuthCode</fullName>
     </fields>
     <fields>
         <fullName>GatewayDate</fullName>
@@ -165,16 +156,8 @@
         <fullName>MacAddress</fullName>
     </fields>
     <fields>
-        <fullName>PaymentGatewayId</fullName>
-        <type>Lookup</type>
-    </fields>
-    <fields>
-        <fullName>PaymentGroupId</fullName>
-        <type>Lookup</type>
-    </fields>
-    <fields>
-        <fullName>PaymentMethodId</fullName>
-        <type>Lookup</type>
+        <fullName>PaymentAuthorizationId</fullName>
+        <type>MasterDetail</type>
     </fields>
     <fields>
         <fullName>Phone</fullName>
@@ -189,15 +172,7 @@
         <fullName>Status</fullName>
     </fields>
     <fields>
-        <fullName>TotalAuthReversalAmount</fullName>
+        <fullName>Type</fullName>
     </fields>
-    <fields>
-        <fullName>TotalPaymentCaptureAmount</fullName>
-    </fields>
-    <listViews>
-        <fullName>PaymentAuthorization</fullName>
-        <filterScope>Everything</filterScope>
-        <label>All</label>
-    </listViews>
-    <sharingModel>ReadWrite</sharingModel>
+    <sharingModel>ControlledByParent</sharingModel>
 </CustomObject>
