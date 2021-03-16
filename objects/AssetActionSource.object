@@ -15,20 +15,6 @@
         <type>Default</type>
     </actionOverrides>
     <actionOverrides>
-        <actionName>Clone</actionName>
-        <type>Default</type>
-    </actionOverrides>
-    <actionOverrides>
-        <actionName>Clone</actionName>
-        <formFactor>Large</formFactor>
-        <type>Default</type>
-    </actionOverrides>
-    <actionOverrides>
-        <actionName>Clone</actionName>
-        <formFactor>Small</formFactor>
-        <type>Default</type>
-    </actionOverrides>
-    <actionOverrides>
         <actionName>Delete</actionName>
         <type>Default</type>
     </actionOverrides>
@@ -128,110 +114,58 @@
     </actionOverrides>
     <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
     <enableFeeds>false</enableFeeds>
-    <externalSharingModel>Private</externalSharingModel>
+    <externalSharingModel>ControlledByParent</externalSharingModel>
     <fields>
-        <fullName>CloseDate</fullName>
-        <trackHistory>false</trackHistory>
+        <fullName>ActualTax</fullName>
     </fields>
     <fields>
-        <fullName>ConstructionEndDate</fullName>
-        <trackHistory>false</trackHistory>
+        <fullName>AdjustmentAmount</fullName>
     </fields>
     <fields>
-        <fullName>ConstructionStartDate</fullName>
-        <trackHistory>false</trackHistory>
+        <fullName>AssetActionId</fullName>
+        <type>MasterDetail</type>
     </fields>
     <fields>
-        <fullName>Description</fullName>
-        <trackHistory>false</trackHistory>
+        <fullName>EndDate</fullName>
     </fields>
     <fields>
-        <fullName>DrivingDirections</fullName>
-        <trackHistory>false</trackHistory>
+        <fullName>EstimatedTax</fullName>
     </fields>
     <fields>
         <fullName>ExternalReference</fullName>
-        <trackHistory>false</trackHistory>
     </fields>
     <fields>
-        <fullName>IsInventoryLocation</fullName>
-        <trackHistory>false</trackHistory>
+        <fullName>ExternalReferenceDataSource</fullName>
     </fields>
     <fields>
-        <fullName>IsMobile</fullName>
-        <trackHistory>false</trackHistory>
+        <fullName>ProductAmount</fullName>
     </fields>
     <fields>
-        <fullName>Location</fullName>
-        <trackHistory>false</trackHistory>
+        <fullName>Quantity</fullName>
     </fields>
     <fields>
-        <fullName>LocationLevel</fullName>
-        <trackHistory>false</trackHistory>
-    </fields>
-    <fields>
-        <fullName>LocationType</fullName>
-        <trackHistory>false</trackHistory>
-        <type>Picklist</type>
-    </fields>
-    <fields>
-        <fullName>LogoId</fullName>
-        <trackHistory>false</trackHistory>
+        <fullName>ReferenceEntityItemId</fullName>
         <type>Lookup</type>
     </fields>
     <fields>
-        <fullName>Name</fullName>
-        <trackHistory>false</trackHistory>
+        <fullName>StartDate</fullName>
     </fields>
     <fields>
-        <fullName>OpenDate</fullName>
-        <trackHistory>false</trackHistory>
+        <fullName>Subtotal</fullName>
     </fields>
     <fields>
-        <fullName>OwnerId</fullName>
-        <trackHistory>false</trackHistory>
-        <type>Lookup</type>
+        <fullName>TransactionDate</fullName>
     </fields>
-    <fields>
-        <fullName>ParentLocationId</fullName>
-        <trackHistory>false</trackHistory>
-        <type>Hierarchy</type>
-    </fields>
-    <fields>
-        <fullName>PossessionDate</fullName>
-        <trackHistory>false</trackHistory>
-    </fields>
-    <fields>
-        <fullName>RemodelEndDate</fullName>
-        <trackHistory>false</trackHistory>
-    </fields>
-    <fields>
-        <fullName>RemodelStartDate</fullName>
-        <trackHistory>false</trackHistory>
-    </fields>
-    <fields>
-        <fullName>RootLocationId</fullName>
-        <trackHistory>false</trackHistory>
-        <type>Lookup</type>
-    </fields>
-    <fields>
-        <fullName>TimeZone</fullName>
-        <trackHistory>false</trackHistory>
-    </fields>
-    <fields>
-        <fullName>VisitorAddressId</fullName>
-        <trackHistory>false</trackHistory>
-        <type>Lookup</type>
-    </fields>
+    <listViews>
+        <fullName>AssetActionSource</fullName>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
     <searchLayouts>
-        <customTabListAdditionalFields>LocationType</customTabListAdditionalFields>
-        <customTabListAdditionalFields>VisitorAddress</customTabListAdditionalFields>
-        <lookupDialogsAdditionalFields>LocationType</lookupDialogsAdditionalFields>
-        <lookupDialogsAdditionalFields>VisitorAddress</lookupDialogsAdditionalFields>
-        <lookupPhoneDialogsAdditionalFields>LocationType</lookupPhoneDialogsAdditionalFields>
-        <lookupPhoneDialogsAdditionalFields>VisitorAddress</lookupPhoneDialogsAdditionalFields>
-        <searchResultsAdditionalFields>LocationType</searchResultsAdditionalFields>
-        <searchResultsAdditionalFields>VisitorAddress</searchResultsAdditionalFields>
+        <customTabListAdditionalFields>AssetAction</customTabListAdditionalFields>
+        <lookupDialogsAdditionalFields>AssetAction</lookupDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>AssetAction</lookupPhoneDialogsAdditionalFields>
+        <searchResultsAdditionalFields>AssetAction</searchResultsAdditionalFields>
     </searchLayouts>
-    <sharingModel>ReadWrite</sharingModel>
+    <sharingModel>ControlledByParent</sharingModel>
 </CustomObject>
