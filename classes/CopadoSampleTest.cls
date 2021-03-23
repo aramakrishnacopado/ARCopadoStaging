@@ -4,7 +4,6 @@ public class CopadoSampleTest {
         Account acc = new Account();
         acc.Name = 'test';
         insert acc;
-        CopadoSample.samplemethod();
-        ///////
+        CopadoSample.samplemethod(); 
     }
 }
