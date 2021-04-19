@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>EI</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>EIs</value>
+    </caseValues>
+    <fieldSets>
+        <label><!-- 178 --></label>
+        <name>X178</name>
+    </fieldSets>
+    <fieldSets>
+        <label><!-- 178quick --></label>
+        <name>X178quick</name>
+    </fieldSets>
+    <fields>
+        <label><!-- 16deAbril --></label>
+        <name>X16deAbril__c</name>
+    </fields>
+    <fields>
+        <label><!-- 178 --></label>
+        <name>X178__c</name>
+    </fields>
+    <layouts>
+        <layout>178renamed</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <label><!-- 178 --></label>
+        <name>X178</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>
