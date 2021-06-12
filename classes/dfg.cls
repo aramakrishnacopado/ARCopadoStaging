@@ -1,14 +1,15 @@
 public class dfg{
 
-account a15;
+public static void fg(){
+account a1e;
+//
+account a2e;
 
-account a2r;
+account a3e;
 
-account a3;
+account a4;
 
-account a4t;
-
-lead f;
+}
 
 
 }
