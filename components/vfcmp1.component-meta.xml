@@ -3,8 +3,13 @@
     <apiVersion>51.0</apiVersion>
     <label>vfcmp1</label>
     <packageVersions>
+        <majorNumber>17</majorNumber>
+        <minorNumber>15</minorNumber>
+        <namespace>copado</namespace>
+    </packageVersions>
+    <packageVersions>
         <majorNumber>1</majorNumber>
-        <minorNumber>7</minorNumber>
-        <namespace>sf_com_apps</namespace>
+        <minorNumber>0</minorNumber>
+        <namespace>samplearvind</namespace>
     </packageVersions>
 </ApexComponent>

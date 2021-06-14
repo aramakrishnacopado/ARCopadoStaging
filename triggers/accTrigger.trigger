@@ -1,4 +1,4 @@
-trigger accTrigger on Account (before insert, after update) {
+trigger accTrigger on Account (before insert, after update, after insert) {
 
 
 //111
@@ -8,7 +8,12 @@ trigger accTrigger on Account (before insert, after update) {
 
 
 
-//6564564
+//6564564rtt
 
-dfg.fg();
+dfg.fg();//dfdf
+
+
+
+
+//sfgfdgfdg
 }

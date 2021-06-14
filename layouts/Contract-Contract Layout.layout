@@ -78,8 +78,6 @@
                 <behavior>Edit</behavior>
                 <field>BillingAddress</field>
             </layoutItems>
-        </layoutColumns>
-        <layoutColumns>
             <layoutItems>
                 <behavior>Edit</behavior>
                 <field>Name</field>
