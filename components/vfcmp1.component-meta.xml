@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ApexComponent xmlns="http://soap.sforce.com/2006/04/metadata">
+    <apiVersion>51.0</apiVersion>
+    <label>vfcmp1</label>
+    <packageVersions>
+        <majorNumber>17</majorNumber>
+        <minorNumber>15</minorNumber>
+        <namespace>copado</namespace>
+    </packageVersions>
+    <packageVersions>
+        <majorNumber>1</majorNumber>
+        <minorNumber>0</minorNumber>
+        <namespace>samplearvind</namespace>
+    </packageVersions>
+</ApexComponent>
