@@ -5,6 +5,8 @@ public class dfgtest{
 private static void testee() {
 dfg.fg();
 
+insert new Account(Name='test');
+
 }
 
 
