@@ -498,6 +498,18 @@
         <fullName>YearStarted</fullName>
         <trackFeedHistory>false</trackFeedHistory>
     </fields>
+    <fields>
+        <fullName>conf__c</fullName>
+        <description>tester</description>
+        <externalId>false</externalId>
+        <inlineHelpText>dff</inlineHelpText>
+        <label>conf</label>
+        <length>101</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
     <listViews>
         <fullName>AllAccounts</fullName>
         <filterScope>Everything</filterScope>
